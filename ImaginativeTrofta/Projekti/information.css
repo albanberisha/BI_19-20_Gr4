@@ -1,0 +1,206 @@
+header {
+    padding-bottom: 0.9vmax;
+    padding-top: 0.7vmax;
+    padding-left: 1em;
+}
+
+html {
+    /*background-image: url(images/back.png);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vmax 100%;
+}
+
+body {
+    padding: 0;
+}
+
+footer {
+    background-color: blue;
+}
+
+h1 {
+    margin-left: 9vmax;
+    font-size: 4vmax;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 7vmax;
+    margin-right: 36%;
+    background-color: none;
+}
+
+form {
+    padding-top: 50px;
+    background-color: #e3e3e3;
+    margin: 2vmax 9vmax 2vmax 9vmax;
+    border-radius: 2vmax;
+    border: 1px solid;
+    border-color: #8b8b8b;
+    text-align: left;
+    font-size: 17px;
+    box-shadow: 5px 5px 5px rgb(136, 136, 255);
+}
+
+form:hover {
+    border: 1.5px solid;
+    border-color: #8b8b8b;
+}
+
+p,
+li {
+    line-height: 30px;
+}
+
+.inline,
+#text,
+#password {
+    margin-left: 2em;
+    margin-top: 0.2vmax;
+    margin-bottom: 0.2vmax;
+}
+
+a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+label a:hover {
+    color: steelblue;
+}
+
+button a {
+    color: white;
+}
+
+button {
+    background-color: #93435c;
+    color: white;
+    width: 7vmax;
+    height: 2.6vmax;
+    font-size: 1.25vmax;
+    padding-top: 0.2vmax;
+    padding-bottom: 0.2vmax;
+    padding-left: 0.2vmax;
+    padding-right: 0.2vmax;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border: 1vmax;
+}
+
+button:hover {
+    background-color: #6a3144;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
+input[type=text] {
+    background-color: white;
+    border: 1px solid;
+    border-color: #8b8b8b;
+    border-radius: 0.2vmax;
+    font-size: 12px;
+    padding-left: 5px;
+    width: 33.5vmax;
+    height: 2em;
+}
+
+input[type=text]:hover {
+    border-color: red;
+    margin-left: 1vmax;
+}
+
+input[type=text]:focus {
+    background-color: rgb(189, 189, 245);
+}
+
+input[type=password] {
+    background-color: white;
+    border: 1px solid;
+    border-color: #8b8b8b;
+    border-radius: 0.2vmax;
+    font-size: 12px;
+    padding-left: 5px;
+    width: 33.5vmax;
+    height: 2em;
+}
+
+input[type=password]:hover {
+    border-color: red;
+    margin-left: 1vmax;
+}
+
+input[type=password]:focus {
+    background-color: rgb(189, 189, 245);
+}
+
+.komentet {
+    background-color: white;
+    border: 1px solid;
+    border-color: #8b8b8b;
+    border-radius: 0.2vmax;
+}
+
+textarea {
+    word-wrap: normal;
+}
+
+.komentet:hover {
+    border-color: red;
+    margin-left: 12px;
+}
+
+.komentet:focus {
+    background-color: rgb(189, 189, 245);
+}
+
+.vitet {
+    background-color: white;
+    color: rgb(167, 167, 172);
+}
+
+.vitet:hover {
+    border-color: red;
+}
+
+.vitet:focus {
+    background-color: rgb(189, 189, 245);
+    color: blue;
+}
+
+.submit {
+    margin-top: 3vmax;
+    margin-left: 3vmax;
+    margin-bottom: 3vmax;
+    text-align: center;
+}
+
+.icons a {
+    margin-top: 0.3em;
+    background: url(images/speaker.png) no-repeat;
+    background-position: 5px;
+}
+
+.icons a:hover {
+    background-color: #979393;
+}
+
+.icons a:focus {
+    background-color: #979393;
+}
+
+.icons a {
+    text-decoration: none;
+    background-color: #d2d2d2;
+    padding: 0.2em 0.8em;
+    margin-right: 0.6%;
+    border-radius: 50%;
+}

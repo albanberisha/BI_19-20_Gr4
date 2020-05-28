@@ -1,0 +1,11 @@
+<p>Trofta</p>
+<p>Rruga Bajram Gashi, Istog 31000 Kosovo</p>
+<p>31000 Istog</p>
+<br>
+ <p>Tel:+37744/405869</p>
+ <p>Fax:039/451016</p>
+<p>Email:<a href="mailto:trfta@gmail.com">trofta@gmail.com</a></p>
+</br>
+<p><b>Orari i pun&#235s</b></p>
+<p>Cdo dit&#235:08:00-23:30</p>
+

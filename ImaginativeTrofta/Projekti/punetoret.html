@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="punetoret.css">
+    <link rel="stylesheet" href="cssiseminarit.css">
+    <meta charset="utf-8">
+    <title>Tables</title>
+    </style>
+</head>
+
+<body>
+    <h1 id="demo1">Punetoret e Troftes</h1>
+    <h3 id="demo">Vlen te ceket se punetoret me ore shtes, marrin page me te larte se ata qe punojne vetem ore te rregulta</h3>
+    <table border="1">
+        <caption>Orari</caption>
+        <div>
+            <thead>
+                <tr>
+                    <th rowspan="2"><img src="images/un1.jpg" width="110" height="60" alt="Foto e Troftes nese nuk shfaqet fotoja"></th>
+                    <th colspan="4" bgcolor="steelblue"><strong>Kuzhina</strong></th>
+                </tr>
+
+                <tr>
+                    <th>Id e punetoreve</th>
+                    <th>Oret gjate javes</th>
+                    <th>Oret jashta orarit</th>
+                    <th>Disa nga operatoret matematikore</th>
+                </tr>
+                <tr>
+                    <th>Paradite(07:00)</th>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>5</td>
+                    <td>
+                        <p id="ip"></p>
+                        <script>
+                        function Orari1(id, ore_gjate, ore_jashta) {
+    								this.id = id;
+     								this.ore_gjate = ore_gjate;
+     								this.ore_jashta = ore_jashta;
+										}
+					var oret = new Orari1(100,40,5);
+
+                            document.getElementById("ip").innerHTML = 'Vlera maksimale e oreve shtese te krejt punetoreve = ' +
+                                Math.max(5, 0, 6, 8, 2.20, 3.40)+" , ndersa oret gjate javes jane: "+oret.ore_gjate+" ,poashtu kete numer 40 mund ta paraqesim ne forme eksponenciale: "+oret.ore_gjate.toExponential()+" .";
+                        </script>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Paradite(07:00)</th>
+                    <td>101</td>
+                    <td>40</td>
+                    <td>0</td>
+                    <td>
+                        <p id="ip1"></p>
+                        <script>
+                        	function Orari2(id, ore_gjate) {
+    								this.id = id;
+     								this.ore_gjate = ore_gjate;
+     								this.ore_jashta = 0;
+										}
+					var oret1 = new Orari2(101,40);
+                            document.getElementById("ip1").innerHTML = 'Vlera minimale e oreve shtese te krejt punetoreve = ' +Math.min(5, 0, 6, 8, 2.20, 3.40)+", ndersa ore jashta orarit jane: "+oret1.ore_jashta+" ,kete numer mund ta konvertojme ne string: "+oret1.ore_jashta.toString()+' .';
+                        </script>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Paradite(07:00)</th>
+                    <td>102</td>
+                    <td>40</td>
+                    <td>6</td>
+                    <td>
+                        <p id="ip2"></p>
+                        <script>
+                            document.getElementById("ip2").innerHTML = 'Parat nga oret shtese per id(102) = ' + (6 * 1.50)+' , '+'ndersa numri me i madh i mmundshem ne JavaScript eshte'+ Number.MAX_VALUE;
+                            
+                        </script>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Paradite(07:00)</th>
+                    <td>103</td>
+                    <td>40</td>
+                    <td>8<td>
+                        <p id="ip3"></p>
+                        <script>
+
+                            document.getElementById("ip3").innerHTML = '<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0'+'<input type="range" id="a" min="0" max="40">0'+
+                        	'<input type="number" id="b" min="0" max="8">'+' Oret e punes duke perfshi edhe oret shtese per id(103)  =<output name="x" for="a b"></output> '+'</form>' ;
+                        </script>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Paradite(07:00)</th>
+                    <td>104</td>
+                    <td>40</td>
+                    <td>2.20</td>
+                    <td>
+                        <p id="ip4"></p>
+                        <script>
+                            function Orari3(id, ore_gjate,ore_jashta) {
+                                    this.id = id;
+                                    this.ore_gjate = ore_gjate;
+                                    this.ore_jashta = ore_jashta;
+                                        }
+                    var oret2 = new Orari3(104,40,2.20);
+                            document.getElementById("ip4").innerHTML = 'Punetori me id(104) ka punuar 2 ore e 20 minuta ,pra do ta bejme rrumbullaksimin nga poshte = ' +
+                                Math.floor(oret2.ore_jashta);
+                        </script>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Paradite(07:00)</th>
+                    <td>105</td>
+                    <td>40</td>
+                    <td>3.40</td>
+                    <td>
+                        <p id="ip5"></p>
+                        <script>
+                            document.getElementById("ip5").innerHTML = 'Punetori me id(105) ka punuar 3 ore e 40 minuta por do ta bejme rrumbullaksimin nga siper = ' +
+                                Math.ceil(3.40);
+                        </script>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <div id="tabelja">
+                            Siq mund te shihni ketu kemi paraqitur orarin e paradites se punetoreve te Troftes.Ku ne vend te emrave per shkak te ruajtes se privatesise kemi shkruar id e tyre.Poashtu ketu kemi paraqitur edhe oret qe ata kane punuar gjate javes(gjate orarit te rregullt)
+                            dhe oret shtese(jashta orarit te rregullt te punes).
+                        </div>
+                    </td>
+                </tr>
+            </thead>
+        </div>
+    </table>
+    <button onclick=regEx()>Provo !</button>
+    <button onclick=regEx2()>Provo edhe nje here !</button>
+    <button onclick=zevendsimi()>Kliko per te nderruar fjalen "page", me fjalen "rroge"!</button>
+    <h3>Stringu "or" i tekstit brenda tabeles shfaqet ne keto raste: <button onclick=matchi()>Kliko!</button></h3>
+    <p id="testi"></p>
+    <h3 id="test"></h3>
+    <div id="nr1">
+        <p>A eshte i vertet pohimi i meposhtem?</p>
+        <p id="vertet" style="text-decoration: underline; font-family: 'Courier New', Courier, monospace;">-Trofta eshte
+            nje nga restaurantet me te njohura ne Kosove!</p>
+        <h2 id="tekst"></h2>
+
+    <script>
+    function regEx() {
+        var patt = document.getElementById("demo1").innerHTML;
+        var reg = patt.search(/troftes/i);
+        document.getElementById("demo1").innerHTML = reg;
+    }
+
+    function regEx2() {
+        var patt = document.getElementById("demo").innerHTML;
+        var reg = /ore/g;
+        var res = patt.match(reg);
+        document.getElementById("demo").innerHTML = res;
+    }
+
+
+    var obj = /a/.exec(" Ky eshte vetem orari paradites!");
+    document.getElementById("test").innerHTML = "Eshte gjetur : " +
+        obj[0] + ", ne poziten " + obj.index + " qe gjindet ne tekstin:" +
+        obj.input;
+
+
+    var text = document.getElementById("vertet").innerHTML;
+    document.getElementById("tekst").innerHTML = /a/.test(text);
+
+    function zevendsimi() {
+        var str = document.getElementById("demo").innerHTML;
+        var txt = str.replace("page", "rroge");
+        document.getElementById("demo").innerHTML = txt;
+    }
+
+    function matchi() {
+        var stringi = document.getElementById("tabelja").innerHTML;
+        var res = stringi.match(/or/g);
+        document.getElementById("testi").innerHTML = res;
+    }
+</script>    
+
+</body>
+
+</html>

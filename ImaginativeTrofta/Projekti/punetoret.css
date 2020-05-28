@@ -1,0 +1,22 @@
+body
+{
+	font-family: Georgia, serif;
+ 	background-size: cover;
+ 	background-image: url("images/punetoret1.png");
+	background-repeat: no-repeat;
+ 
+}
+table
+{
+	background-color: #ABB1BA;
+}
+.tabelja 
+{
+	 column-count: 3;
+  	 column-gap: 100px;
+            
+}
+button 
+{
+   margin-top: 3em;
+}

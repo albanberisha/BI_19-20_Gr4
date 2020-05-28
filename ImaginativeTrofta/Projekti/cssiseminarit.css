@@ -1,0 +1,832 @@
+/* dizajnimi i pjeses se headerit*/
+
+.in {
+    background: url(images/in.png);
+    background-size: 1.8vmax;
+    background-position: -0.8vmax 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.facebook {
+    background: url(images/facebook.png);
+    background-position: -1.3vmax -0.5vmax;
+    background-size: 2.8vmax;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.googleplus {
+    background: url(images/googleplus.png);
+    background-position: -0.6vmax 0;
+    background-size: 1.6vmax;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.twitter {
+    background: url(images/twitter.png);
+    background-position: -0.7vmax 0.1vmax;
+    background-size: 1.7vmax;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.instagram {
+    background: url(images/instagram.png);
+    background-position: -0.8vmax 0;
+    background-size: 1.6vmax;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.mainMenu {
+    background-color: white;
+    padding: 0.5em 0 0.5em 0;
+    margin-right: 1.2vmax;
+    margin-left: 1.2vmax;
+    list-style-type: none;
+    font-size: 1.5vmax;
+}
+
+.icons {
+    background-color: white;
+    margin-top: 0.3em;
+}
+
+.icons a:hover {
+    background-color: #e87d2e;
+}
+
+.icons a {
+    text-decoration: none;
+    background-color: #d2d2d2;
+    padding: 0.2em 0.8em;
+    margin-right: 0.6%;
+    border-radius: 50%;
+}
+
+a {
+    color: #93435c;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+.login {
+    margin-top: -1.25em;
+    float: right;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+
+/** dizajnimi i emrit te biznesit**/
+
+.imaginative {
+    background-color: #e3e3e3;
+    padding: 1em 0 5em 0;
+    font-size: 2.8vmax;
+    color: #323232;
+}
+
+.firstLetter {
+    font-size: 150%;
+    margin-left: 1.15vmax;
+}
+
+#t1 {
+    margin-left: 10.5em;
+    margin-top: -3.1em;
+    font-size: 1.32vmax;
+    border-spacing: 6.5px;
+}
+
+#t1 tr td {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-width: 1.1px;
+    color: #a1a1a1;
+    padding-left: 5px;
+}
+
+button {
+    background-color: #93435c;
+    color: white;
+    border-color: #93435c;
+    border-style: solid;
+}
+
+#kerkim {
+    border-bottom-right-radius: 0.5vmax;
+    border-top-right-radius: 0.5vmax;
+    border: 1vmax;
+    width: 7vmax;
+    height: 2.6vmax;
+    font-size: 1.25vmax;
+}
+
+.imaginative ul {
+    float: right;
+    margin-right: 1.2vmax;
+    margin-top: -1.5em;
+}
+
+.submiti button {
+    border-bottom-right-radius: 0.5vmax;
+    border-top-right-radius: 0.5vmax;
+    border: 1vmax;
+    width: 7vmax;
+    height: 2.6vmax;
+    font-size: 1.25vmax;
+}
+
+input[type=search] {
+    margin-right: -0.58em;
+    border-top-left-radius: 0.5vmax;
+    border-bottom-left-radius: 0.5vmax;
+    border-style: solid;
+    border-color: white;
+    width: 26vmax;
+    height: 2.6vmax;
+    font-size: 1.25vmax;
+    padding-left: 0.5em;
+}
+
+input[type=search]:hover {
+    width: 28vmax;
+    border-color: white;
+    outline-color: none;
+}
+
+input[type=search]:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #6a3144;
+}
+
+.buttongroup {
+    text-align: left;
+    text-overflow: clip;
+    font-size: 1.2vmax;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: -10vmax;
+    padding: 0.7vmax 0.7vmax 0.7vmax 0.4vmax;
+    border-radius: 0.6vmax 0.6vmax 0 0;
+    background-color: #93435c;
+}
+
+.buttongroup a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #93435c;
+    padding: 0.7vmax 0.7vmax 0.7vmax 0.7vmax;
+    margin-right: -0.4vmax;
+}
+
+.buttongroup a:first-child {
+    margin-left: -0.4vmax;
+    border-top-left-radius: 0.6vmax;
+}
+
+.buttongroup a:hover,
+.buttongroup .aktiv {
+    background-color: #6a3144;
+}
+
+#home {
+    margin-left: 1.2vmax;
+    margin-right: 1.2vmax;
+    background-color: white;
+}
+
+main .slideShow {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    margin: auto;
+}
+
+.imageHolder img {
+    width: 100%;
+    height: 100%;
+}
+
+.diferentpages {
+    padding-top: 2vmax;
+    margin: 0 2vmax;
+}
+
+.dot {
+    cursor: pointer;
+    height: 1.5vmin;
+    width: 1.5vmin;
+    margin: 1vmax 2px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: black;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: white;
+    border-color: black;
+}
+
+.dot:focus {
+    border-color: black;
+}
+
+form {
+    margin-top: 2vmax;
+    border: none;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+
+form fieldset.nr1 legend {
+    text-align: center;
+    font-size: 1.8vmax;
+    text-transform: uppercase;
+}
+
+.imageHolder {
+    display: none;
+    position: relative;
+    text-align: left;
+    color: #383838;
+}
+
+.bottom-right h3 {
+    font-size: 3vmax;
+}
+
+.bottom-right p {
+    font-size: 1.5vmax;
+}
+
+
+/*Pjesa Te rejat*/
+
+.nr1 legend {
+    font-size: 1.5vmax;
+}
+
+.forma {
+    font-size: 1.5vmax;
+}
+
+.forma fieldset {
+    margin: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0.3vmax solid rgb(131, 125, 125);
+    letter-spacing: 0.5px;
+}
+
+.terejat {
+    font-size: 1.5vmax;
+    margin-bottom: -2.4vmin;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.terejat a {
+    text-decoration: none;
+}
+
+.terejat p {
+    color: #464242;
+}
+
+.terejat a:hover {
+    color: steelblue;
+}
+
+.nr1 .terejat div {
+    float: left;
+    margin-top: 2.4vmax;
+    width: 33.3%;
+}
+
+.nr1 div img {
+    float: left;
+    padding-left: 2px;
+    padding-right: 1.7vmax;
+}
+
+fieldset img:hover {
+    transform: scale(1.1);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+
+/*Rregullimi i pjeses angazhime dhe publikime*/
+
+#service2 {
+    width: 51%;
+}
+
+.Fforma fieldset {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0.3vmax solid rgb(131, 125, 125);
+    letter-spacing: 0.5px;
+}
+
+.Fforma {
+    padding-left: 1em;
+    padding-right: -5em;
+}
+
+.terejat2 {
+    width: 100%;
+    margin-bottom: 2vmax;
+}
+
+.terejat2 p {
+    color: #464242;
+}
+
+.terejat2 a {
+    text-decoration: none;
+}
+
+.terejat2 div {
+    float: left;
+    margin-top: 3.4vmax;
+    width: 49%;
+}
+
+.forma p {
+    color: #464242;
+}
+
+#nr2 {
+    margin-left: -0.15em;
+    margin-right: -0.2em;
+}
+
+.forma #nr2 img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    margin-left: -10px;
+}
+
+legend {
+    font-size: 1.5vmax;
+}
+
+.angazhimet {
+    margin-bottom: 28px;
+}
+
+#nr2 legend {
+    text-align: center;
+}
+
+#nr2 .author {
+    margin-top: -10vmax;
+    margin-left: 5vmax;
+}
+
+blockquote {
+    margin-top: 16px;
+    font-family: Georgia, serif;
+    font-style: normal;
+    font-size: 10vmax;
+    position: relative;
+    color: #383838;
+    margin-left: -10px;
+    margin-bottom: 0;
+}
+
+blockquote:before {
+    content: "\201C";
+    color: #7a7a7a
+}
+
+.p,
+.author {
+    font-size: 1.5vmax;
+}
+
+blockquote a,
+.readmore {
+    text-decoration: none;
+    color: #93435c;
+    font-size: 1.5vmax;
+}
+
+
+/*Rregullimi i contact us now*/
+
+.buttongroup3 .info {
+    background-color: #93435c;
+    width: 4vmax;
+    height: 100%;
+}
+
+.buttongroup1 div:first-child {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-overflow: clip;
+    color: white;
+    font-size: 2.5vmax;
+    padding: 0.7vmax 0.7vmax 0.7vmax 0.7vmax;
+    border-radius: 0.6vmax;
+    background-color: #93435c;
+}
+
+.buttongroup1 h1 {
+    margin-left: 1vmax;
+}
+
+.buttongroup1 p {
+    font-size: 1.8vmax;
+    margin-left: 1vmax;
+}
+
+.buttongroup1 .contactusnow {
+    margin-top: -5vmax;
+    margin-bottom: 10vmax;
+}
+
+.buttongroup1 a {
+    text-decoration: none;
+    float: right;
+    color: #93435c;
+    background-color: white;
+    font-size: 2.5vmax;
+    margin-right: 1.3vmax;
+    padding: 0.4vmax 0.5vmax 0.5vmax 0.5vmax;
+    border-radius: 0.6vmax;
+}
+
+.contactusnow a:hover {
+    color: #6a3144;
+}
+
+
+/*rregullimi i footerit*/
+
+footer {
+    background-color: #EBEBEB;
+    margin: 0;
+}
+
+.forma2 {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0.3vmax solid rgb(131, 125, 125);
+    letter-spacing: 0.5px;
+}
+
+.pjesa_footer {
+    width: 100%;
+    margin: 2em 0;
+    padding: 0 1vmax;
+    font-size: 1.5vmax;
+}
+
+.pjesa_footer tr h3 {
+    float: left;
+}
+
+.pjesa_footer .lajmetefundit {
+    width: 50%;
+}
+
+.pjesa_footer th {
+    padding-bottom: 0.8em;
+}
+
+.pjesa_footer td {
+    vertical-align: top;
+    padding-right: 1em;
+}
+
+.pjesapare div img {
+    float: left;
+    margin-right: 1.7vh;
+    padding: 2px;
+    border: 1px solid rgb(131, 125, 125);
+}
+
+#tefundit img:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.pjesapare a {
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+
+/*dizejnimi i na kontaktoni neve*/
+
+.forma3 {
+    margin-right: -1em;
+}
+
+.inline2 {
+    padding-bottom: 0.5em;
+    list-style: none;
+}
+
+.inline2 input {
+    border: 1px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 99%;
+    height: 2.6vmax;
+    font-size: 1.5vmax;
+}
+
+.inline2 input[type=text]:focus {
+    background-color: rgb(189, 189, 245);
+}
+
+.inline2 textarea {
+    resize: none;
+    border: none;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 98%;
+    height: 8vmax;
+    font-size: 1.5vmax;
+    word-break: normal;
+}
+
+.inline2 textarea:focus {
+    background-color: rgb(189, 189, 245);
+}
+
+.inline2 textarea:hover {
+    border-color: red;
+}
+
+
+/*dizajnimi i butonit dergo*/
+
+.submiti2 button {
+    border-radius: 0.5vmax;
+    border: 1vmax;
+    width: 7vmax;
+    height: 2.6vmax;
+    font-size: 1.5vmax;
+}
+
+.copyright {
+    margin-left: 1.2vmax;
+    font-size: 1.3vmax;
+    padding-bottom: 0.8vmax
+}
+
+.pjposhte {
+    margin-right: 1.2vmax;
+    margin-top: -1.2em;
+    float: right;
+}
+
+#map {
+    height: 50px;
+    width: 50px;
+}
+
+
+/*Dizejnimi i template-it lokacioni*/
+
+#lokacioni {
+    margin-left: 1.2vmax;
+    margin-right: 1.2vmax;
+    background-color: white;
+}
+
+.pozicionimi {
+    margin: 2vmax;
+}
+
+.tregolokacionin {
+    margin-top: 1vmax;
+    border: 1px solid;
+    border-radius: 0.3vmax;
+}
+
+
+/*Drag and drop*/
+
+#div1 {
+    float: left;
+    margin: 1vmax;
+    margin-top: 120px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: skyblue;
+}
+
+#div2 {
+    float: left;
+    margin: 1vmax;
+    margin-top: 120px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: skyblue;
+}
+
+
+/*Resize dhe outline offset*/
+
+#div1,
+#div2 {
+    border: 2px solid;
+    padding: 20px;
+    width: 100px;
+    resize: both;
+    overflow: auto;
+    outline: 5px dotted blue;
+    outline-offset: 5px;
+}
+
+
+/*@keyframe*/
+
+#div1 {
+    position: relative;
+    animation: mymove 5s;
+    /*mujme me ba edhe infinite
+                          animacion:mymove 5s infinite;*/
+}
+
+#div2 {
+    position: relative;
+    animation: mymove 7s;
+    /*mujme me ba edhe infinite
+                          animacion:mymove 5s infinite;*/
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 200px;
+    }
+}
+
+
+/*dizajnimi i  logocanvas*/
+
+
+/*RotateX dhe Y*/
+
+.peshku {
+    margin-bottom: 2px;
+    transform: rotateY(3.142rad);
+    background-color: rgb(150, 150, 153);
+    padding-left: 5px;
+    width: 400px;
+}
+
+.peshku2 {
+    transform: rotateX(3.142rad);
+    background-color: rgb(150, 150, 153);
+    padding-left: 3.4px;
+    width: 407px;
+}
+
+.peshku3 {
+    background-color: rgb(150, 150, 153);
+    transform: rotate(90deg) translate(0, -345px);
+    margin-top: -85px;
+    padding: 3.4px;
+    width: 138px;
+}
+
+#more {
+    display: none;
+}
+
+
+/* pjesa per template-in e gallerys */
+
+#galleria {
+    margin-left: 1.2vmax;
+    margin-right: 1.2vmax;
+    background-color: white;
+    margin-top: -16px;
+    background: url(images/kamera3.jpg) left top repeat, url(images/kamera2.jpg) right bottom repeat;
+    background-size: 100% 51%, 100% 50%;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    margin-bottom: -2.3vmax;
+}
+
+div.desc {
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.figura img:hover {
+    filter: grayscale(0);
+    transform: scale(1.02);
+}
+
+.figura dl dt img {
+    margin-top: 10px;
+    margin-left: 43vmax;
+    float: right;
+    filter: grayscale(75%);
+    width: 53%;
+    height: 100%;
+}
+
+
+/*Dizejnimi i template-it menaxhmenti*/
+
+#menaxhmenti {
+    margin-left: 1.2vmax;
+    margin-right: 1.2vmax;
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+    background-color: white;
+    font-size: 1.6vmax;
+}
+
+#kerko {
+    border-radius: 0.5vmax;
+    border: 1px solid;
+    width: 7vmax;
+    font-size: 1.5vmax;
+    height: 2.6vmax;
+}
+
+#kodi {
+    border-radius: 0.5vmax;
+    border: 1px solid rgb(124, 124, 124);
+    font-size: 1.5vmax;
+    height: 2.4vmax;
+}
+
+#menaxhmenti nav {
+    margin: 0 1em 1em 1em;
+}
+
+#emri,
+#mbiemri {
+    margin-top: 1em;
+}
+
+.nested {
+    padding-left: 2em;
+    background-color: white;
+}
+
+.nested li {
+    display: list-item;
+    list-style-type: square;
+}
+
+.nested ul .round {
+    margin-left: 2em;
+    display: list-item;
+    list-style-type: circle;
+}
+
+.square {
+    margin-left: 5em;
+    display: list-item;
+    list-style-type: square;
+}
+
+.number li {
+    margin-left: 5em;
+    display: list-item;
+    list-style-type: decimal;
+}
